@@ -1,0 +1,35 @@
+:root {
+  --clr-primary-500: hsl(218, 44%, 22%);
+
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-300: hsl(212, 45%, 89%);
+  --clr-neutral-500: hsl(220, 15%, 55%);
+
+  --ff-base: "Outfit", sans-serif;
+  --fs-base: 0.9375rem;
+
+  --fw-400: 400;
+  --fw-700: 700;
+
+  --fw-regular: var(--fw-400);
+  --fw-bold: var(--fw-700);
+
+  --clr-card-background: var(--clr-neutral-100);
+
+  --ff-primary-heading: var(--ff-base);
+  --ff-description: var(--ff-base);
+
+  --fs-description: var(--fs-base);
+}
+
+body {
+  background-color: var(--clr-neutral-300);
+  font-family: var(--ff-base);
+  font-size: var(--fs-base);
+  font-weight: var(--fw-base);
+
+  /* for this project only */
+  display: grid;
+  place-content: center;
+  margin: 1rem;
+}
